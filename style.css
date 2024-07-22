@@ -1,0 +1,67 @@
+body{
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.xesubJn0DWYf6t60IW0FdQHaD5&pid=Api&P=0&h=220");
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.navigation{
+    text-align: center;
+
+}
+
+a{
+    padding-right: 50px;
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.recipe{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: white; */
+    gap: 25px;
+    grid-template-rows: repeat(5,1fr);
+}
+.image{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 275px;
+    height: 350px;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.input{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+img{
+    width: 200px;
+    margin-left: 24px;
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    border: solid black;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color:black;
+    margin-left: 75px;
+}
+
+.button:hover{
+    background-color: aliceblue;
+    color: black;
+    width: 140px;
+    height: 35px;
+    margin-left:65px ;
+
+}

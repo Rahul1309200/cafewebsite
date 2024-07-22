@@ -1,0 +1,35 @@
+.welcome{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    color: blueviolet;
+}
+.coffee{
+    display: inline;
+
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.navigation{
+    text-align: center;
+    background-color: black;
+
+}
+
+a{
+    padding-right: 50px;
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    text-decoration: none;
+}

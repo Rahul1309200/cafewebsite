@@ -1,0 +1,42 @@
+body{
+    background-image:url("https://tse3.mm.bing.net/th?id=OIP.xesubJn0DWYf6t60IW0FdQHaD5&pid=Api&P=0&h=220");
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.navigation{
+    text-align: center;
+
+}
+
+a{
+    padding-right: 50px;
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.contacts{
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+}
+.contactdetails{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    flex-wrap: wrap;
+}
+.details{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+h3{
+    color: rgb(165, 210, 15);
+}
+pre{
+    color: white;
+}
